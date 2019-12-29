@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Porgrammine</title>
+		<style type="text/css">
+			body{
+				line-height:1.6em;
+				min-height:1.6em;
+				font-family: calibri, Times New Roman, Verdana;
+			}
+			@media(max-width:600px){
+				body{
+					width:100%;
+					float: none;
+				}
+			}
+			#logo{
+				text-align: center;
+			}
+			#description{
+				text-align: center;
+				padding: 2% 5% 2% 5%;
+				margin: 2% 10% 10% 10%;
+				border: 2px solid black;
+			} 
+			#description h1{
+				text-transform: uppercase;
+				letter-spacing: 0.07em;
+			}
+			.signature{
+				text-align: center;	
+			}
+			.container1 h1{
+				text-align: center;
+				padding: 0% 10%;
+				text-decoration: underline;
+			}
+			.container1 p{
+				border-left: 6px solid red;
+				margin-left: 10%;
+				color: blue;
+				padding: 0% 0.5%;
+			}
+			.task h1{
+				text-decoration: underline;
+				text-transform: uppercase;
+				padding: 2% 10% 0% 10%;
+			}
+			.task p{
+				margin: 0% 10%;
+
+			}
+			.system img{
+				float: right;
+				width: 33.33%;
+				padding: 2px 6px 10px 5px;
+				margin-right: 10%;
+				width: 300px;
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+			<div id="logo">
+				<img id="logo" src="images/logo.jpg" alt="ASI-Karikas" width="550">
+			</div>
+		</header>
+
+		<section id="description">
+			<h1>Hea kooliesindaja!</h1>
+			<p>Kutsume Teie kooli õpilasi osalema programmeerimisvõistlusel “ASI Karikas”, mida korraldavad ühiselt Tallinna Tehnikaülikooli Arvutisüsteemide instituut ja Tarkvaraarenduse klubi Lapikud.</p>
+
+			<p>Konkurss on võistkondlik ning toimub kahes voorus. Osalema on oodatud kuni neljaliikmelised võistkonnad ning kasutada võib programmeerimiskeeli Python, Java, C, C++ või C#.</p>
+			
+			<p>Esimeses voorus osalemiseks tuleb lahendada lisatud ülesanded ning esitada need e-posti teel: asikarikas@asikarikas.ee. Lahenduste esitamise tähtaeg on 09.02.2020 kell 23.59. Kõik esimese vooru osalejad saavad osavõtja diplomi, mida arvestatakse sisseastumisel TTÜ IT-teaduskonda järgnevatel aastatel.</p>
+			
+			<p>Esimese vooru edukalt sooritanud võistkonnad koos juhendajaga kutsutakse lõppvooru, mis toimub Tallinna Tehnikaülikooli IT Kolledžis 14.03.2020 kell 10.00 - 14.00. Lõppvooru ülesandeks on rakendusprogrammi koostamine.</p>
+			
+			<p>Kõigile lõppvõistlusest osavõtjatele pakutakse võistluspäeva hommikul kell 9.00 hommikusööki ning pärast võistlust lõunasööki. Ajavahemikus 14.00 - 16.00 saavad võistlejad üliõpilaste juhendamisel proovida mikrokontrollerite programmeerimist. Võitjad kuulutatakse välja kell 16.00. Kõigil lõppvoorus osalejatel loetakse TTÜ IT teaduskonda sisseastumisel ained Programmeerimine I (IAX0583) ja Programmeerimine II (IAX0584) sooritatuks.</p>
+
+			<p>ASI Karika toimkonna nimel,</p>
+
+			<p>Risto Leesmäe, Tallinna Tehnikaülikooli Tarkvaraarenduse klubi Lapikud esimees</p>
+			<div class="signature">
+				<img src="images/sign1.jpg" alt="Signature of Risto Leesmäe" width="150">
+			</div>
+			<p>Vladimir Viies PhD, Tallinna Tehnikaülikool ASI lõputööde kaitsmiskomisjoni esimees</p>
+			<div class="signature">
+				<img src="images/sign2.jpg" alt="Signature of Vladimir Viies" width="150">
+			</div>
+		</section>
+
+		<div class="container1">
+			<h1>ASI KARIKA 2020 eelvooru ülesanded!</h1>
+			<p>NB! Mõlema ülesande lahendamine ei ole kohustuslik.
+			<br />  
+			Iga ülesande lahendus annab maksimaalselt 50p, seega on võimalik saada kokku 100p, mis kindlasti viib lõppvooru.</p>
+		</div>
+
+		<section id="exercises">
+			<article class="task">
+				<h1>1. LAEVADE POMMITAMINE (mäng arvuti vastu) programm (50p)</h1>
+				<p>
+					Arvuti võiks olla iseõppiv, see tähendab, et iga registreerunud mängija vastu kujundab individuaalset strateegiat. Kuidas programm aru saab kuidas mängijaid registreerida on arendajate otsustada.
+					<br />
+					Näiteks kui mängija Jüri alustab alati (peale mitmendat mängu) mängu esimese käiguna nurga pommitamist, siis sinna arvuti laevukest ei aseta. 
+					<br />
+					Kui Jüri alustab mängu, mänguvälja keskkoha pommitamisega, siis sinna arvuti võiks paigutada ühe ruudulise laevukese, meelitades sellega selle ümbruse tühja pommitamist…
+					<br />
+					Loomulikult arvuti strateegiad võivad olla ja peaksid olema palju keerukamad.
+					<br />
+					Ülejäänud mängu reeglid võib kujundada ise. Samuti peab olema määratav mängija enda poolt keerukuse tase koos laevade hulga ja suurustega.
+				</p>
+			</article>
+			<article class="task">
+				<h1>
+					2. Vana-Eesti  ruunikalender - teha kaasaegne ruunikalender koos muistsete tähtpäevadega(50p)
+				</h1>
+				<div class="system">
+					<img id="ruuni" src="images/ruuni.jpg" alt="ruunikalender image">
+					<p>
+						Sirvikalender (ehk sirvilauad või sirvid) on ruunikalender, mida on tarvitanud eri rahvad kogu Põhja-Euroopas. Kõik Eestis säilinud ruunikalendrid on igavesed, s.t neid võib kasutada igal aastal. Kõik need vastavad Juliuse kalendrile, ehkki neid ei ole raske kohandada Gregoriuse kalendriga.  
+						<br />
+						Ülesandeks on siis koostada programm, mis tõlgib meie praeguse kalendri kuupäeva ruuni kalendrisse. On hea, kui tõlkimine oleks kahepoolne ja lisaks kalendrisse Eesti riiklikud tähtpäevad.
+						<br />
+						Kasulikk info kalendri koostamise  kohta asub 
+						<br />
+						<a href="http://www.tud.ttu.ee/im/Vladimir.Viies/materials/ruuniKalAbi/" target="_blank">http://www.tud.ttu.ee/im/Vladimir.Viies/materials/ruuniKalAbi/</a>	
+						<br />
+						Samuti leiab   abi leheküljelt :  juks.alkohol.ee › tools › kalender › ruuni
+					</p>
+				</div>
+			</article>
+		</section>
+	</body>
+</html>
