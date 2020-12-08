@@ -1,0 +1,107 @@
+/* BACKGROUND */
+body {
+    background-color: #0a0a0a;
+}
+
+.navbar {
+    background-color: rgb(255 119 61 / 95%);
+}
+
+/* TEXT */
+body {
+    color: #fff;
+    font-size: 18px;
+    font-size: calc(18px + (22 - 18) * ((100vw - 300px) / (1600 - 300)));
+    /* font-size: calc([minimum size] + ([maximum size] - [minimum size]) * ((100vw - [minimum viewport width]) / ([maximum viewport width] - [minimum viewport width]))); */
+    font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
+    overflow-wrap: break-word;
+}
+
+h1, h2, h3, h4, h5 {
+    color:#23a7ff;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+a {
+    color:#FFCC0A;
+}
+
+a:hover, a:active {
+    color:#3040FF;
+}
+
+#intro {
+    font-size: 3rem;
+    color:#FF773D;
+}
+
+.navbar .navbar-nav .nav-link {
+    color: rgb(0 0 0 / 85%);
+}
+
+.file__type {
+    color:#17FFDF;
+}
+
+/* WHITESPACE */
+main {
+    padding-top: 30px;
+    padding-bottom: 80px; /* To accomodate the navbar */
+}
+
+section {
+    margin-bottom: 60px;
+}
+
+h1, h2, h3, h4, h5 {
+    margin-bottom: 10px;
+}
+
+h2, h3, h4, h5 {
+    margin-top: 25px;
+}
+
+.nav-item {
+    margin-right: 16px;
+}
+
+/* PAGE SECTIONS */
+/* Navbar */
+.nav-link {
+    cursor: pointer;
+}
+
+/* Sponsors */
+#sponsors img {
+    width: 300px;
+}
+
+/* Archive */
+.archive_content {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+/* RESPONSIVNESS */
+/* Text */
+@media screen and (max-width: 576px) {
+    #intro {
+        font-size: 2rem;
+    }
+}
+
+/* JAVASCRIPT */
+/* To avoid flickering due to text reveal effect */
+section:not(#introduction), #organizers {
+    visibility: hidden;
+}
+.table {
+    color:#fff
+}
+
+.pdf-file {
+    height: 30px;
+}
