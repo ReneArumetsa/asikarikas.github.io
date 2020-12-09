@@ -33,18 +33,22 @@ a:hover, a:active {
     color:#3040FF;
 }
 
+.highlight_1 {
+    color:#FF773D;
+}
+
+.highlight_2 {
+    color:#17FFDF;
+}
+
 #intro {
     font-size: 3rem;
-    color:#FF773D;
 }
 
 .navbar .navbar-nav .nav-link {
     color: rgb(0 0 0 / 85%);
 }
 
-.file__type {
-    color:#17FFDF;
-}
 
 /* WHITESPACE */
 main {
@@ -68,10 +72,23 @@ h2, h3, h4, h5 {
     margin-right: 16px;
 }
 
+#asi_logo {
+    margin-bottom: 30px;
+}
+
 /* PAGE SECTIONS */
 /* Navbar */
 .nav-link {
     cursor: pointer;
+}
+
+/* Intro */
+#asi_logo {
+    max-width: 600px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
 /* Sponsors */
@@ -80,9 +97,17 @@ h2, h3, h4, h5 {
 }
 
 /* Archive */
-.archive_content {
-    list-style-type: none;
-    padding-left: 0;
+.table {
+    color:#fff
+}
+
+table td, table th {
+    border: 0 !important;
+    padding-left: 0 !important;
+}
+
+.pdf-file {
+    height: 30px;
 }
 
 /* RESPONSIVNESS */
@@ -97,11 +122,4 @@ h2, h3, h4, h5 {
 /* To avoid flickering due to text reveal effect */
 section:not(#introduction), #organizers {
     visibility: hidden;
-}
-.table {
-    color:#fff
-}
-
-.pdf-file {
-    height: 30px;
 }
