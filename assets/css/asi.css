@@ -17,7 +17,7 @@ body {
     overflow-wrap: break-word;
 }
 
-h1, h2, h3, h4, h5 {
+h1, h2, h3, h4, h5, th {
     color:#23a7ff;
 }
 
@@ -37,16 +37,16 @@ a:hover, a:active {
     color:#FF773D;
 }
 
-.highlight_2 {
-    color:#17FFDF;
-}
-
 #intro {
     font-size: 3rem;
 }
 
 .navbar .navbar-nav .nav-link {
     color: rgb(0 0 0 / 85%);
+}
+
+#participation li:before { 
+    color: #4bff2f;
 }
 
 
@@ -82,6 +82,16 @@ h2, h3, h4, h5 {
     cursor: pointer;
 }
 
+/* List */
+#participation ul {
+    list-style: none;  
+    padding-left: 0; 
+}
+
+#participation li:before { 
+    content: '> ';
+}
+
 /* Sponsors */
 #sponsors img {
     width: 300px;
@@ -111,7 +121,7 @@ table td, table th {
 /* Text */
 @media screen and (max-width: 576px) {
     #intro {
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
 }
 
