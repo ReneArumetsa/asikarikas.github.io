@@ -14,6 +14,7 @@
                 transform: rotateY(180deg);
     }
 }
+
 @keyframes yRotation {
     from {
         -webkit-transform: rotateY(0deg);
@@ -46,10 +47,6 @@ body {
     background-color: #0a0a0a;
 }
 
-.navbar {
-    background-color: rgb(255 119 61 / 95%);
-}
-
 /* TEXT */
 body {
     color: #fff;
@@ -80,19 +77,6 @@ a:hover, a:active {
     color:#FF773D;
 }
 
-#intro {
-    font-size: 3rem;
-}
-
-.navbar .navbar-nav .nav-link {
-    color: rgb(0 0 0 / 85%);
-}
-
-#participation li:before { 
-    color: #4bff2f;
-}
-
-
 /* WHITESPACE */
 main {
     padding-top: 30px;
@@ -111,19 +95,33 @@ h2, h3, h4, h5 {
     margin-top: 25px;
 }
 
+/* PAGE SECTIONS */
+.col {
+    min-width: 300px;
+}
+
+/* Intro */
+#intro {
+    font-size: 3rem;
+}
+
+/* Navbar */
+.navbar {
+    background-color: rgb(255 119 61 / 95%);
+}
+
+.nav-link {
+    cursor: pointer;
+}
+
 .nav-item {
     margin-right: 16px;
 }
 
-#asi_logo {
-    margin-bottom: 30px;
+.navbar .navbar-nav .nav-link {
+    color: rgb(0 0 0 / 85%);
 }
 
-/* PAGE SECTIONS */
-/* Navbar */
-.nav-link {
-    cursor: pointer;
-}
 
 /* Prog. language options */
 .carousel-control-next, .carousel-control-prev {
@@ -201,6 +199,7 @@ h2, h3, h4, h5 {
 
 #participation li:before { 
     content: '> ';
+    color: #4bff2f;
 }
 
 /* Sponsors */
@@ -226,6 +225,7 @@ table td, table th {
 #asi_logo {
     max-width: 300px;
     display: block;
+    margin-bottom: 30px;
 }
 
 /* RESPONSIVNESS */
