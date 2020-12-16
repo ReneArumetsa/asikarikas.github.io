@@ -1,3 +1,28 @@
+/* FONTS */
+@font-face {
+    font-family: Visitor;
+    src: url(../fonts/visitor.ttf);
+ }
+
+ /* ANIMATIONS */
+@keyframes yRotation {
+    from {
+        transform: rotateY(0deg);
+    } to {
+        transform: rotateY(180deg);
+    }
+}
+
+@keyframes load{
+    from {
+        width: 0%
+    }
+}
+
+.yRotate {
+    animation: yRotation 2s infinite linear;
+}
+
 /* BACKGROUND */
 body {
     background-color: #0a0a0a;
@@ -82,7 +107,74 @@ h2, h3, h4, h5 {
     cursor: pointer;
 }
 
-/* List */
+/* Prog. language options */
+.carousel-control-next, .carousel-control-prev {
+    display: block !important;
+    top: 75px;
+}
+
+#lang_options{
+    width: 300px;
+}
+
+#lang_options_title, .lang_name, .stat_bar {
+    font-family: 'Visitor';
+}
+
+#lang_options_title {
+    font-size: 4rem;
+    color: #B53BFF;
+}
+
+.lang_name {
+    font-size: 2rem;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.lang_icon {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    display: block;
+}
+
+/* Stat bar */
+.stat_bar, .stat_bar::before {
+    height: 35px;
+}
+
+.stat_bar {
+    background-color: #006f07;
+    border-radius: 6px;
+    margin-bottom: 6px;
+    font-size: 17px;
+    color: #000;
+}
+
+.stat_bar::before {
+    min-width: 75px;
+    content: attr(data-stat);
+    background-color: #4bff2f;
+    display: inline-block;
+    padding: 7px 10px;
+    border-radius: inherit;
+    animation: load 2s 0s;
+}
+
+.stat_bar.low::before {
+    width: 40%;
+}
+
+.stat_bar.mid::before {
+    width: 70%;
+}
+
+.stat_bar.high::before {
+    width: 100%;
+}
+
+/* Why to participate? */
 #participation ul {
     list-style: none;  
     padding-left: 0; 
@@ -118,10 +210,17 @@ table td, table th {
 }
 
 /* RESPONSIVNESS */
-/* Text */
 @media screen and (max-width: 576px) {
     #intro {
         font-size: 1.8rem;
+    }
+
+    #lang_options_title {
+        font-size: 3rem;
+    }
+
+    .stat_bar{
+        max-width: 290px;
     }
 }
 
