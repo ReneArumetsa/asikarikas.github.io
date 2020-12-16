@@ -5,11 +5,28 @@
  }
 
  /* ANIMATIONS */
+@-webkit-keyframes yRotation {
+    from {
+        -webkit-transform: rotateY(0deg);
+                transform: rotateY(0deg);
+    } to {
+        -webkit-transform: rotateY(180deg);
+                transform: rotateY(180deg);
+    }
+}
 @keyframes yRotation {
     from {
-        transform: rotateY(0deg);
+        -webkit-transform: rotateY(0deg);
+                transform: rotateY(0deg);
     } to {
-        transform: rotateY(180deg);
+        -webkit-transform: rotateY(180deg);
+                transform: rotateY(180deg);
+    }
+}
+
+@-webkit-keyframes load{
+    from {
+        width: 0%
     }
 }
 
@@ -20,7 +37,8 @@
 }
 
 .yRotate {
-    animation: yRotation 2s infinite linear;
+    -webkit-animation: yRotation 2s infinite linear;
+            animation: yRotation 2s infinite linear;
 }
 
 /* BACKGROUND */
@@ -159,7 +177,8 @@ h2, h3, h4, h5 {
     display: inline-block;
     padding: 7px 10px;
     border-radius: inherit;
-    animation: load 2s 0s;
+    -webkit-animation: load 2s 0s;
+            animation: load 2s 0s;
 }
 
 .stat_bar.low::before {
