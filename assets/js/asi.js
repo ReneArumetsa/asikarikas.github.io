@@ -14,8 +14,8 @@ $(document).ready(function() {
 /* FUNCTIONS */
 /* Intro text */
 function revealText(textbox, text, speed, letter_position = 0){
-    setTimeout(function() {
-        if (letter_position < text.length) {
+    setTimeout(function(){
+        if (letter_position < text.length){
             textbox.append(text.charAt(letter_position));
 
             /* Recursion until the whole text has been reveled */
@@ -29,8 +29,9 @@ function fitTextboxToText(textbox, text, hidden_content = false, content){
     textbox.height(textbox.height()); // Save textbox current height
     textbox.text(""); // Remove placeholder text
 
-    if (hidden_content) // Content is previously hidden using CSS to avoid screen flickering
+    if (hidden_content){ // Content is previously hidden using CSS to avoid screen flickering
         content.css("visibility", "visible");
+    }
 }
 
 /* Navbar */
