@@ -1,7 +1,7 @@
 /* MAIN */
 $(document).ready(function() {
     /* Intro text animation */
-    let introText = "ASI Karikas 2021 on võistkondlik programmeerimise võistlus kooliõpilastele.";
+    let introText = "ASI Karikas on võistkondlik programmeerimise võistlus kooliõpilastele.";
     let introTextbox = $("#intro");
 
     fitTextboxToText(introTextbox, introText, true, $("section:not(#introduction), #organizers"));

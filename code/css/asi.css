@@ -77,6 +77,10 @@ a:hover, a:active {
     color:#FF773D;
 }
 
+.highlight_2 {
+    color:#3DFFE5;
+}
+
 /* WHITESPACE */
 main {
     padding-top: 30px;
@@ -192,12 +196,12 @@ h2, h3, h4, h5 {
 }
 
 /* Why to participate? */
-#participation ul {
+main ul {
     list-style: none;  
     padding-left: 0; 
 }
 
-#participation li:before { 
+main li:before { 
     content: '> ';
     color: #4bff2f;
 }
