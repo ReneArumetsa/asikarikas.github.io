@@ -37,6 +37,14 @@
     }
 }
 
+/* Set variables for colors because I'm lazy */
+:root {
+    --black: #17161c;
+    --orange: #ed8431;
+    --purple: #B53BFF;
+    --blue: #10dce3;
+}
+
 .yRotate {
     -webkit-animation: yRotation 2s infinite linear;
             animation: yRotation 2s infinite linear;
@@ -50,35 +58,39 @@ body {
 /* TEXT */
 body {
     color: #fff;
-    font-size: 18px;
-    font-size: calc(18px + (22 - 18) * ((100vw - 300px) / (1600 - 300)));
+    font-size: 14px;
+    font-size: calc(14px + (22 - 18) * ((100vw - 300px) / (1600 - 300)));
     /* font-size: calc([minimum size] + ([maximum size] - [minimum size]) * ((100vw - [minimum viewport width]) / ([maximum viewport width] - [minimum viewport width]))); */
-    font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
+    font-family: 'Source Sans Pro', sans-serif;
     overflow-wrap: break-word;
 }
 
 h1, h2, h3, h4, h5, th {
-    color:#23a7ff;
+    color: var(--purple);
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 h1 {
-    font-weight: bold;
+    font-weight: 900;
+    color: #fff;
 }
 
 a {
-    color:#FFCC0A;
+    color:#fff;
+    transition: 0.3s;
 }
 
 a:hover, a:active {
-    color:#3040FF;
+    color: var(--orange);
+    transition: 0.3s;
 }
 
 .highlight_1 {
-    color:#FF773D;
+    color: #fff;
 }
 
 .highlight_2 {
-    color:#3DFFE5;
+    color: var(--orange);
 }
 
 /* WHITESPACE */
@@ -106,12 +118,15 @@ h2, h3, h4, h5 {
 
 /* Intro */
 #intro {
-    font-size: 3rem;
+    font-size: 2.7rem;
+    font-weight: 300;
+    font-family: Visitor;
+    color: var(--purple);
 }
 
 /* Navbar */
 .navbar {
-    background-color: rgb(255 119 61 / 95%);
+    background-color: var(--purple);
 }
 
 .nav-link {
@@ -123,7 +138,8 @@ h2, h3, h4, h5 {
 }
 
 .navbar .navbar-nav .nav-link {
-    color: rgb(0 0 0 / 85%);
+    color: rgb(0 0 0 / 100%);
+    font-family: Visitor;
 }
 
 /* Demo video */
@@ -217,8 +233,9 @@ main ul {
 }
 
 main li:before { 
-    content: '> ';
+    content: '▪ ';
     color: #4bff2f;
+    font-size: 1.2em;
 }
 
 /* Sponsors */
@@ -247,10 +264,32 @@ table td, table th {
     margin-bottom: 30px;
 }
 
+#organizers {
+    padding-top: -1.5em;
+}
+
+/* First round tasks button */
+#tasks_button {
+    background-color: var(--purple);
+    border: none;
+    border-radius: 1em;
+    padding: 0.3em;
+    padding-left: 1em;
+    padding-right: 1em;
+    color: #fff;
+    transition: 0.3s;
+    font-size: 1.1em;
+}
+
+#tasks_button:hover {
+    background-color: #a379f7;
+    transition: 0.3s;
+}
+
 /* RESPONSIVNESS */
 @media screen and (max-width: 576px) {
     #intro {
-        font-size: 1.8rem;
+        font-size: 2rem;
     }
 
     #lang_options_title {
@@ -259,6 +298,16 @@ table td, table th {
 
     .stat_bar{
         max-width: 290px;
+    }
+
+    #organizers{
+        padding-top: -1.5em;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    #organizers{
+        padding-top: 2em;
     }
 }
 
