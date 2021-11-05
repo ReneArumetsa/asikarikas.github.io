@@ -244,13 +244,14 @@ main li:before {
 }
 
 /* Archive */
-.table {
+#table {
     color:#fff
 }
 
 table td, table th {
     border: 0 !important;
     padding-left: 0 !important;
+    padding-right: 1.5em;
 }
 
 .pdf-file {
