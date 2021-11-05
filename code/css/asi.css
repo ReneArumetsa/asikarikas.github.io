@@ -286,6 +286,15 @@ table td, table th {
     transition: 0.3s;
 }
 
+#intro_link {
+    color: var(--orange);
+    transition: 0.3s;
+}
+
+#intro_link:hover {
+    color: #4bff2f;
+}
+
 /* RESPONSIVNESS */
 @media screen and (max-width: 576px) {
     #intro {
