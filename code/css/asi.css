@@ -287,13 +287,13 @@ table td, table th {
     transition: 0.3s;
 }
 
-#intro_link {
+#intro_link, #first_round a {
     color: var(--orange);
     transition: 0.3s;
 }
 
-#intro_link:hover {
-    color: #4bff2f;
+#intro_link:hover, #first_round a:hover {
+    color: #36c221;
 }
 
 /* RESPONSIVNESS */
