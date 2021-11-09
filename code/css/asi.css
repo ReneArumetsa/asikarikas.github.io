@@ -297,27 +297,27 @@ table td, table th {
 }
 
 /* RESPONSIVNESS */
-@media screen and (max-width: 576px) {
+@media only screen and (min-width: 200px) {
     #intro {
         font-size: 2rem;
     }
 
     #lang_options_title {
-        font-size: 3rem;
+        font-size: 2.2rem;
     }
 
     .stat_bar{
         max-width: 290px;
     }
 
-    #organizers{
-        padding-top: -1.5em;
-    }
 }
 
-@media screen and (max-width: 750px) {
+@media only screen and (min-width: 768px) {
     #organizers{
-        padding-top: 2em;
+        padding-top: -2em;
+    }
+    #intro {
+        font-size: 2.7rem;
     }
 }
 
