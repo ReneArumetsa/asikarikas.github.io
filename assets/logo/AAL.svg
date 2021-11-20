@@ -13,7 +13,7 @@
    version="1.1"
    id="svg8"
    inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
-   sodipodi:docname="Lühike_AAL.svg">
+   sodipodi:docname="AAL.svg">
   <defs
      id="defs2" />
   <sodipodi:namedview
@@ -23,11 +23,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:zoom="5.9116661"
-     inkscape:cx="81.446082"
-     inkscape:cy="73.305163"
+     inkscape:zoom="27.560354"
+     inkscape:cx="69.821846"
+     inkscape:cy="108.83863"
      inkscape:document-units="mm"
-     inkscape:current-layer="text835"
+     inkscape:current-layer="g926"
      inkscape:document-rotation="0"
      showgrid="false"
      showborder="true"
@@ -49,7 +49,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -59,8 +59,7 @@
      id="layer1"
      transform="translate(86.475286,119.1251)">
     <g
-       aria-label="TTÜ
-AAL"
+       aria-label="TTÜ AAL"
        id="text835"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.1111px;line-height:0.76;font-family:'Proxima Nova';-inkscape-font-specification:'Proxima Nova, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;letter-spacing:0px;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke-width:0.246297"
        transform="matrix(0.92627901,0,0,0.92627901,-4.754695,-7.7949069)">
