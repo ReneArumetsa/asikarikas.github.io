@@ -27,13 +27,13 @@
 
 @-webkit-keyframes load{
     from {
-        width: 0%
+        width: 0
     }
 }
 
 @keyframes load{
     from {
-        width: 0%
+        width: 0
     }
 }
 
@@ -109,6 +109,12 @@ h1, h2, h3, h4, h5 {
 
 h2, h3, h4, h5 {
     margin-top: 25px;
+}
+
+h6 {
+    font-style: italic;
+    margin-top: 10px;
+    color: darkgray;
 }
 
 /* PAGE SECTIONS */
@@ -325,4 +331,27 @@ table td, table th {
 /* To avoid flickering due to text reveal effect */
 section:not(#introduction), #organizers {
     visibility: hidden;
+}
+
+.img_center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
+
+.img_row {
+    display: flex;
+}
+
+.img_column {
+    flex: 33.33%;
+    padding: 5px;
+}
+
+.img_in_column {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
 }
