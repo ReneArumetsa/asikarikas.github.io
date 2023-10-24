@@ -271,10 +271,6 @@ table td, table th {
     margin-bottom: 30px;
 }
 
-#organizers {
-    padding-top: -1.5em;
-}
-
 /* First round tasks button */
 #tasks_button {
     background-color: var(--purple);
@@ -319,9 +315,6 @@ table td, table th {
 }
 
 @media only screen and (min-width: 768px) {
-    #organizers{
-        padding-top: -2em;
-    }
     #intro {
         font-size: 2.7rem;
     }
