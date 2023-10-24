@@ -154,7 +154,7 @@ h6 {
     padding-bottom: 56.25%; /* 16:9 */
     height: 0;
   }
-  
+
 #demo_video_wrapper iframe {
     position: absolute;
     top: 0;
@@ -234,18 +234,18 @@ h6 {
 
 /* Why to participate? */
 main ul {
-    list-style: none;  
-    padding-left: 0; 
+    list-style: none;
+    padding-left: 0;
 }
 
-main li:before { 
+main li:before {
     content: '▪ ';
     color: #4bff2f;
     font-size: 1.2em;
 }
 
-/* Sponsors */
-#sponsors img {
+/* Supporters */
+#supporters img {
     width: 200px;
 }
 
