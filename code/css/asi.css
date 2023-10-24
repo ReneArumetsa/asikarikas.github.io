@@ -245,8 +245,14 @@ main li:before {
 }
 
 /* Supporters */
-#supporters img {
+.supporter-img {
     width: 200px;
+}
+
+#baskin-robbins-img {
+    width:250px;
+    padding:1.5em;
+    height:200px;
 }
 
 /* Archive */
