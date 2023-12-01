@@ -139,6 +139,11 @@ h6 {
     cursor: pointer;
 }
 
+.intro-nav-link {
+    padding: 0;
+    display: inline;
+}
+
 .nav-item {
     margin-right: 16px;
 }
