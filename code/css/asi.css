@@ -278,7 +278,7 @@ table td, table th {
 }
 
 /* First round tasks button */
-#tasks_button {
+.tasks_button {
     background-color: var(--purple);
     border: none;
     border-radius: 1em;
@@ -290,17 +290,17 @@ table td, table th {
     font-size: 1.1em;
 }
 
-#tasks_button:hover {
+.tasks_button:hover {
     background-color: #a379f7;
     transition: 0.3s;
 }
 
-#intro_link, #first_round a {
+.intro_link, #first_round a {
     color: var(--orange);
     transition: 0.3s;
 }
 
-#intro_link:hover, #first_round a:hover {
+.intro_link:hover, #first_round a:hover {
     color: #36c221;
 }
 
